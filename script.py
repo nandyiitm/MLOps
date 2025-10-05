@@ -9,7 +9,7 @@ from sklearn import metrics
 from datetime import datetime
 
 ## Simple decision tree model
-data_version = 'v1'
+data_version = 'v2'
 
 data = pd.read_csv(f'data/{data_version}/data.csv')
 data.head(5)
