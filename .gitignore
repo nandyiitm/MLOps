@@ -1,2 +1,6 @@
 data
 venv
+/model_v1.joblib
+.dvc
+.dvcignore
+model_v2.joblib
