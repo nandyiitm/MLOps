@@ -35,7 +35,6 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           pip install dvc==3.63.0 dvc-gs==3.0.2 dvc-data==3.16.12
           pip install -r requirements.txt --no-deps
-          pip install cml
 
       # Step 5: Pull data from DVC remote
       - name: DVC Pull
@@ -59,6 +58,7 @@ jobs:
 
           # Post report as a PR comment
           cml comment create report.md
+
 
 
 
