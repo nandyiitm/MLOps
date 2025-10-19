@@ -3,6 +3,7 @@ name: MLOps CI
 on:
   pull_request:
     branches: [ main, week2 ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -57,3 +58,4 @@ jobs:
 
           # Post report as a PR comment
           cml comment create report.md
+
