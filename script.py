@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn import metrics
 from datetime import datetime
 
-## Simple decision tree model
+### Simple decision tree model
 data_version = 'v2'
 
 data = pd.read_csv(f'data/{data_version}/data.csv')
