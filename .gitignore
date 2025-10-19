@@ -5,3 +5,4 @@ venv
 .dvcignore
 model_v2.joblib
 /test.txt
+.script.py.swp
